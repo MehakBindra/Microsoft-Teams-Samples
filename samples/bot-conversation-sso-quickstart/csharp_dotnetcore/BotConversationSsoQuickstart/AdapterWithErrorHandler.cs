@@ -11,17 +11,19 @@ using Microsoft.Bot.Builder.TraceExtensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Bot.Core.Compat;
 using Microsoft.Bot.Core;
+using Microsoft.Extensions.Configuration;
 
 namespace Microsoft.BotBuilderSamples
 {
     public class AdapterWithErrorHandler : CompatAdapter
     {
         public AdapterWithErrorHandler( BotApplication app, CompatBotAdapter botAdapter,
+            IConfiguration configuration,
             ILogger<IBotFrameworkHttpAdapter> logger, IStorage storage,
             ConversationState conversationState)
             : base(app, botAdapter)
         {
-            //base.Use(new TeamsSSOTokenExchangeMiddleware(storage, configuration["ConnectionName"]));
+            base.Use(new TeamsSSOTokenExchangeMiddleware(storage, configuration["ConnectionName"]));
 
             OnTurnError = async (turnContext, exception) =>
             {
