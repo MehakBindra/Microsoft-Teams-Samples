@@ -2,9 +2,8 @@
 # Licensed under the MIT License.
 
 import asyncio
-import os
 import re
-from azure.identity import ClientSecretCredential
+from azure.identity import DefaultAzureCredential
 from dotenv import load_dotenv
 from kiota_abstractions.base_request_configuration import RequestConfiguration
 from microsoft_teams.api import (
@@ -20,11 +19,8 @@ from microsoft_teams.graph import get_graph_client
 load_dotenv()
 
 # Authenticate the app, needed for the transcript API
-_credential = ClientSecretCredential(
-    tenant_id=os.environ.get('TENANT_ID', ''),
-    client_id=os.environ.get('CLIENT_ID', ''),
-    client_secret=os.environ.get('CLIENT_SECRET', ''),
-)
+# For UMI, leave AZURE_CLIENT_SECRET empty in your .env
+_credential = DefaultAzureCredential()
 
 def _get_token() -> str:
     token = _credential.get_token('https://graph.microsoft.com/.default')
