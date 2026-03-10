@@ -6,6 +6,7 @@ using Microsoft.Teams.Api.Activities;
 using Microsoft.Teams.Api.Entities;
 using Microsoft.Teams.Apps;
 using Microsoft.Teams.Apps.Activities;
+using Microsoft.Teams.Apps.Activities.Invokes;
 using Microsoft.Teams.Plugins.AspNetCore.Extensions;
 using System.Text.Json;
 
@@ -15,7 +16,6 @@ builder.AddTeams();
 var app = builder.Build();
 var teams = app.UseTeams();
 
-// Routes incoming message text to the appropriate feature handler
 teams.OnMessage(async context =>
 {
     var text = context.Activity.Text?.Trim().ToLower() ?? "";
@@ -32,28 +32,12 @@ teams.OnMessage(async context =>
         await SendWelcomeCard(context);
 });
 
-// Handles message/submitAction invoke activities to process thumbs up/down reactions and text feedback
-teams.OnActivity(async context =>
+teams.OnSubmitAction(async context =>
 {
-    var activity = context.Activity;
-    var activityType = activity.Type?.ToString() ?? "";
-
-    if (!activityType.Equals("invoke", StringComparison.OrdinalIgnoreCase))
-        return;
-
-    var json = activity.ToString();
-    using var doc = JsonDocument.Parse(json!);
-    var root = doc.RootElement;
-
-    if (!root.TryGetProperty("name", out var nameProp) ||
-        nameProp.GetString() != "message/submitAction")
-        return;
-
     var reaction = "No reaction";
     var feedbackText = "No feedback";
 
-    if (root.TryGetProperty("value", out var valueProp) &&
-        valueProp.TryGetProperty("actionValue", out var actionValue))
+    if (context.Activity.Value?.ActionValue is JsonElement actionValue)
     {
         if (actionValue.TryGetProperty("reaction", out var reactionProp))
             reaction = reactionProp.GetString() ?? "No reaction";
@@ -75,8 +59,7 @@ teams.OnActivity(async context =>
 
 app.Run("http://localhost:3978");
 
-// Sends a message with an AI-generated label attached
-static async Task SendAILabel(IContext<MessageActivity> context)
+async Task SendAILabel(IContext<MessageActivity> context)
 {
     await context.Send(new MessageActivity
     {
@@ -84,25 +67,21 @@ static async Task SendAILabel(IContext<MessageActivity> context)
     }.AddAIGenerated());
 }
 
-// Sends a message with AI-generated label and thumbs up/down feedback buttons
-static async Task SendFeedbackButtons(IContext<MessageActivity> context)
+async Task SendFeedbackButtons(IContext<MessageActivity> context)
 {
     await context.Send(new MessageActivity("This is an example of a feedback button - this helps to provide feedback for a message")
         .AddFeedback(true));
 }
 
-// Sends a message with a sensitivity label indicating the confidentiality level
-static async Task SendSensitivityLabel(IContext<MessageActivity> context)
+async Task SendSensitivityLabel(IContext<MessageActivity> context)
 {
     await context.Send(new MessageActivity
     {
         Text = "This is an example of a sensitivity label that help users identify the confidentiality of a message"
-    }.AddAIGenerated()
-     .AddSensitivityLabel("Confidential \\ Contoso FTE", "Please be mindful of sharing outside of your team", null));
+    }.AddSensitivityLabel("Confidential \\ Contoso FTE", "Please be mindful of sharing outside of your team", null));
 }
 
-// Sends a message with an inline citation and its associated appearance details
-static async Task SendCitations(IContext<MessageActivity> context)
+async Task SendCitations(IContext<MessageActivity> context)
 {
     var message = new MessageActivity
     {
@@ -125,8 +104,7 @@ static async Task SendCitations(IContext<MessageActivity> context)
     await context.Send(message);
 }
 
-// Sends a welcome message listing the available keyword commands
-static async Task SendWelcomeCard(IContext<MessageActivity> context)
+async Task SendWelcomeCard(IContext<MessageActivity> context)
 {
     await context.Send("Welcome to the AI bot! Try sending messages with keywords like 'label', 'sensitivity', 'feedback', or 'citation' to see different AI features.");
 }
