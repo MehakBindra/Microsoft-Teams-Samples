@@ -1,5 +1,5 @@
 {
-    "name": "bot-ai",
+    "name": "bot-ai-messages",
     "main": "index.ts",
     "private": true,
     "type": "module",

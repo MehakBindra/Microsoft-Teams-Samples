@@ -5,7 +5,7 @@ import { CitationAppearance, MessageActivity, SensitiveUsageEntity } from "@micr
 import { AdaptiveCard, TextBlock } from "@microsoft/teams.cards";
 import { App } from "@microsoft/teams.apps";
 
-const app = new App({});
+const app = new App();
 
 app.on("message.submit.feedback", async (context) => {
   try {
