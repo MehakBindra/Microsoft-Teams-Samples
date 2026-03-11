@@ -1,30 +1,38 @@
-# Auth Bot
+# Bot Auth Quickstart - .NET (C#)
 
-A Microsoft Teams bot with SSO authentication and Microsoft Graph API integration.
+A Microsoft Teams bot with SSO authentication and Microsoft Graph integration.
 
 ## Features
 
 - **SSO Authentication** - Single Sign-On with Microsoft Entra ID
-- **Graph API Integration** - Retrieve user profile information
+- **Graph Integration** - Fetch user profile via Microsoft Graph
 
 
 ## Prerequisites
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
-- One of the following:
-  - [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/) with Microsoft 365 Agents Toolkit
-  - [VS Code](https://code.visualstudio.com/) with Teams Toolkit extension
-  - .NET CLI (no IDE required)
+- [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/) with [Microsoft 365 Agents Toolkit](https://learn.microsoft.com/microsoftteams/platform/toolkit/toolkit-v4/install-agents-toolkit-vs)
 
 ## Run the sample
 
-> **Note:** This sample uses SSO authentication and therefore **does not work** in Microsoft 365 Agents Playground. You must test it in Microsoft Teams.
+### Using Microsoft 365 Agents Toolkit (Recommended)
 
+1. Open the project in Visual Studio
+2. Right-click on the **M365Agent** folder and select **Microsoft 365 Agents Toolkit**
+3. Sign in with your Microsoft 365 account
+4. Press `F5` to start debugging
 
-1. **Navigate to this directory and run:**
+### Using Command Line
+
+1. Navigate to this directory:
 
 ```sh
-cd BotAuthQuickstart
+cd dotnet/BotAuthQuickstart
+```
+
+2. Run the bot:
+
+```bash
 dotnet run
 ```
 
