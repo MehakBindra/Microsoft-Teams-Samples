@@ -70,7 +70,6 @@ app.on('message', async ({ send, activity }) => {
   }
 })
 
-
 function createWikipediaCard(result: Record<string, any>): AdaptiveCard {
   const title = result.title || 'No Title'
   const snippet = (result.snippet || '').replace(/<[^>]+>/g, '')
