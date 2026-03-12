@@ -105,6 +105,8 @@ string ParseVtt(string vtt)
 teamsApp.OnMeetingJoin(async context =>
 {
     var activity = context.Activity.Value;
+    if (string.IsNullOrEmpty(activity.Members[0].User?.AadObjectId)) return;
+
     var member = activity.Members[0].User.Name;
     var role = activity.Members[0].Meeting?.Role ?? "a participant";
 
@@ -180,6 +182,9 @@ teamsApp.OnMeetingEnd(async context =>
     // Get MS Graph Resource ID from meeting details
     var msGraphResourceId = meetingInfo?.Details?.MSGraphResourceId;
 
+    // Wait 30 seconds for the transcript to become available
+    await Task.Delay(30000);
+    
     // Retrieve transcript
     var transcript = "";
     if (!string.IsNullOrEmpty(msGraphResourceId) && !string.IsNullOrEmpty(userId))
