@@ -6,9 +6,9 @@ using Microsoft.Teams.Api.Activities;
 using Microsoft.Teams.Api.Entities;
 using Microsoft.Teams.Apps;
 using Microsoft.Teams.Apps.Activities;
-using Microsoft.Teams.Apps.Activities.Invokes;
 using Microsoft.Teams.Plugins.AspNetCore.Extensions;
 using System.Text.Json;
+using System.Text.Json.Nodes;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.AddTeams();
@@ -32,12 +32,27 @@ teams.OnMessage(async context =>
         await SendWelcomeCard(context);
 });
 
-teams.OnSubmitAction(async context =>
+teams.OnActivity(async context =>
 {
+    var activity = context.Activity;
+    var activityType = activity.Type?.ToString() ?? "";
+
+    if (!activityType.Equals("invoke", StringComparison.OrdinalIgnoreCase))
+        return;
+
+    var json = activity.ToString();
+    using var doc = JsonDocument.Parse(json!);
+    var root = doc.RootElement;
+
+    if (!root.TryGetProperty("name", out var nameProp) ||
+        nameProp.GetString() != "message/submitAction")
+        return;
+
     var reaction = "No reaction";
     var feedbackText = "No feedback";
 
-    if (context.Activity.Value?.ActionValue is JsonElement actionValue)
+    if (root.TryGetProperty("value", out var valueProp) &&
+        valueProp.TryGetProperty("actionValue", out var actionValue))
     {
         if (actionValue.TryGetProperty("reaction", out var reactionProp))
             reaction = reactionProp.GetString() ?? "No reaction";
@@ -73,10 +88,21 @@ async Task SendFeedbackButtons(IContext<MessageActivity> context)
 
 async Task SendSensitivityLabel(IContext<MessageActivity> context)
 {
+    var entity = new CitationEntity();
+    entity.Properties["@id"] = "";
+    entity.Properties["usageInfo"] = new JsonObject
+    {
+        ["type"] = "https://schema.org/Message",
+        ["@type"] = "CreativeWork",
+        ["name"] = "Confidential \\ Contoso FTE",
+        ["description"] = "Please be mindful of sharing outside of your team"
+    };
+
     await context.Send(new MessageActivity
     {
-        Text = "This is an example of a sensitivity label that help users identify the confidentiality of a message"
-    }.AddSensitivityLabel("Confidential \\ Contoso FTE", "Please be mindful of sharing outside of your team", null));
+        Text = "This is an example of a sensitivity label that help users identify the confidentiality of a message",
+        Entities = new List<IEntity> { entity }
+    });
 }
 
 async Task SendCitations(IContext<MessageActivity> context)
@@ -92,11 +118,7 @@ async Task SendCitations(IContext<MessageActivity> context)
         Url = "https://example.com/claim-1",
         Abstract = "Excerpt description",
         Keywords = new List<string> { "keyword 1", "keyword 2", "keyword 3" },
-        UsageInfo = new SensitiveUsageEntity
-        {
-            Name = "Confidential \\ Contoso FTE",
-            Description = "Only accessible to Contoso FTE"
-        }
+        Icon = CitationIcon.MicrosoftWord
     });
 
     await context.Send(message);
