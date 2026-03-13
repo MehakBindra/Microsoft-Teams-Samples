@@ -126,17 +126,19 @@ To obtain the TenantId, ClientId and ClientSecret you can use the Azure CLI with
 ```
 az ad app credential reset --id $appId
 ```
+
+## Troubleshooting
+
+- If Teams cannot communicate with your bot, verify your DevTunnels URL is reachable.
+- Ensure your .env or appsettings file is setup correctly.
+- Use the Channels UI in Azure Bot Service in the Azure Portal to see detailed endpoint errors (not available in Teams Developer Portal).
+
 ## Further Reading
  
 - [Microsoft Teams SDK Documentation](https://learn.microsoft.com/microsoftteams/platform/)
- 
-### AI Features in Bot Messages
 - [Bot messages with AI-generated content](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/bot-messages-ai-generated-content) - Overview of AI-generated content features in bot messages
 - [AI label for bot messages](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/format-ai-bot-messages?tabs=desktop#ai-label) - Add AI-generated labels to bot messages
 - [Citations in bot messages](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/format-ai-bot-messages?tabs=desktop#ai-label) - Add citations to bot messages
 - [Feedback buttons](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/format-ai-bot-messages?tabs=desktop#ai-label) - Add feedback buttons to bot messages
 - [Sensitivity labels](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/format-ai-bot-messages?tabs=desktop#ai-label) - Add sensitivity labels to bot messages
  
-### Tools & Resources
-- [Microsoft 365 Agents Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) - VS Code extension for Teams development
-- [Azure Bot Service](https://azure.microsoft.com/services/bot-services/) - Cloud-based bot development service
