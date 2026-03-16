@@ -75,18 +75,17 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 | 15 | Product inspection                         | Demonstrating a feature where the user can scan a product and mark it as approved/rejected.                                                                                                                                       | Intermediate | [View][tab-product-inspection#csharp]  |                                             | [View][productinspection#nodejs] ![toolkit-icon](assets/toolkit-icon.png) | [View](/samples/tab-product-inspection/csharp/demo-manifest/Tab-Product-Inspection.zip) |
 | 16 | Tab Meeting Transcript Recording           | This sample shows meeting transcripts and recordings.                                                                                                                                                                             | Intermediate | [View][tab-meeting-transcript-recording#csharp] |                                             | [View][tab-meeting-transcript-recording#nodejs] ![toolkit-icon](assets/toolkit-icon.png) |                                                                    |
 | 17 | Tab DeepLink Pass Values                   | Microsoft Teams sample which displays deeplinks based on the values passed dynamically to the context.                                                                                                                              | Intermediate |                                         | [View][tab-deeplink-pass-values#ts]          |                                             |                                                                    |
-| 18 | Offline Support Tickets                    | This sample app demonstrates a classic CRUD application that functions offline within Microsoft Teams. When the Android device reconnects to the internet, users can sync their data with blob storage.                          | Intermediate |                                         | [View][tab-support-offline#nodejs] ![toolkit-icon](assets/toolkit-icon.png) | [View](/samples/tab-support-offline/nodejs/demo-manifest/tab-support-offline.zip) |
+| 18 | Offline Support Tickets                    | This sample app demonstrates a classic CRUD application that functions offline within Microsoft Teams. When the Android device reconnects to the internet, users can sync their data with blob storage.                          | Intermediate |                                         | [View][tab-support-offline#nodejs] ![toolkit-icon](assets/toolkit-icon.png) | [View](/samples/TeamsJS/tab-support-offline/nodejs/demo-manifest/tab-support-offline.zip) |
 | 19 | Tab AdhocCalls Transcripts & Recording           | AdhocCalls for group call recording, transcription, and UI display.                                                                                                                                                                             | Intermediate |    |                                             | [View][tab-adhoccalls-transcript-recording#nodejs] ![toolkit-icon](assets/toolkit-icon.png) |                                                                    |
 | 20 | Tab DeepLink Pass Values                   | Microsoft Teams sample which displays deeplinks based on the values passed dynamically to the context.                                                                                                                              | Intermediate |                                         | [View][tab-deeplink-pass-values#ts]          |                                             |                                                                    |
-| 21 | Offline Support Tickets                    | This sample app demonstrates a classic CRUD application that functions offline within Microsoft Teams. When the Android device reconnects to the internet, users can sync their data with blob storage.                          | Intermediate |                                         | [View][tab-support-offline#nodejs] ![toolkit-icon](assets/toolkit-icon.png) | [View](/samples/tab-support-offline/nodejs/demo-manifest/tab-support-offline.zip) |
-| 22 | Staggered Permission                       | This sample demos app to request staggered Graph API permissions in Teams tabs.                                                                                                                                                   | Advanced     | [View][tab-staggered-permission#csharp] |                                             | [View][tab-staggered-permission#nodejs] ![toolkit-icon](assets/toolkit-icon.png) | [View](/samples/tab-staggered-permission/csharp/demo-manifest/tab-staggered-permission.zip) |
-| 23 | Tab Multi Hub                              | Interact with the user's calendar, mail, profile, geolocation from a personal tabs app.                                                                                                                                           | Advanced     |                                         | [View][tab-multi-hub#ts] ![toolkit-icon](assets/toolkit-icon.png) |                                             |                                                                    |
-| 24 | Tab External Auth                          | This sample illustrates how to implement Google auth using external auth providers.                                                                                                                                               | Advanced     | [View][tab-external-auth#csharp]       |                                             |                                             |                                                                    |
-| 25 | Nested App Authentication                  | This sample shows nested app authentication (NAA), a new protocol that simplifies single sign-on (SSO) for single-page applications.                                           | Advanced     | [View][tab-nested-auth#cs]             | [View][tab-nested-auth#nodejs] ![toolkit-icon](assets/toolkit-icon.png) |               |[View](/samples/tab-nested-auth/csharp/demo-manifest/tab-nested-auth.zip) |                                            |                                                                    |
-| 26 | Tab Meeting Recording and transcript with auto recording | This sample shows meeting recording and transcript with auto recording.                                                                                                         | Advanced     | [View][tab-meeting-auto-recording#csharp] |                                             |                                             |                                                                    |
-| 27 | Tab External Auth                          | This sample illustrates how to implement Google auth using external auth providers.                                                                                                                                               | Advanced     | [View][tab-external-auth#csharp]       |                                             |                                             |                                                                    |
-| 28 | Tab Meeting Recording and transcript with auto recording | This sample shows meeting recording and transcript with auto recording.                                                                                                         | Advanced     | [View][tab-meeting-auto-recording#csharp] |                                             |                                             |                                                                    |
-| 29 | Tab App Navigation                         | Sample app demonstrating tab navigation features in Microsoft Teams using ASP.NET Core.                                                                                                                                          | Basic        | [View][tab-app-navigation#csharp]       |                                             |                                             |                                                                    |
+| 21 | Staggered Permission                       | This sample demos app to request staggered Graph API permissions in Teams tabs.                                                                                                                                                   | Advanced     | [View][tab-staggered-permission#csharp] |                                             | [View][tab-staggered-permission#nodejs] ![toolkit-icon](assets/toolkit-icon.png) | [View](/samples/tab-staggered-permission/csharp/demo-manifest/tab-staggered-permission.zip) |
+| 22 | Tab Multi Hub                              | Interact with the user's calendar, mail, profile, geolocation from a personal tabs app.                                                                                                                                           | Advanced     |                                         | [View][tab-multi-hub#ts] ![toolkit-icon](assets/toolkit-icon.png) |                                             |                                                                    |
+| 23 | Tab External Auth                          | This sample illustrates how to implement Google auth using external auth providers.                                                                                                                                               | Advanced     | [View][tab-external-auth#csharp]       |                                             |                                             |                                                                    |
+| 24 | Nested App Authentication                  | This sample shows nested app authentication (NAA), a new protocol that simplifies single sign-on (SSO) for single-page applications.                                           | Advanced     | [View][tab-nested-auth#cs]             | [View][tab-nested-auth#nodejs] ![toolkit-icon](assets/toolkit-icon.png) |               |[View](/samples/tab-nested-auth/csharp/demo-manifest/tab-nested-auth.zip) |                                            |                                                                    |
+| 25 | Tab Meeting Recording and transcript with auto recording | This sample shows meeting recording and transcript with auto recording.                                                                                                         | Advanced     | [View][tab-meeting-auto-recording#csharp] |                                             |                                             |                                                                    |
+| 26 | Tab External Auth                          | This sample illustrates how to implement Google auth using external auth providers.                                                                                                                                               | Advanced     | [View][tab-external-auth#csharp]       |                                             |                                             |                                                                    |
+| 27 | Tab Meeting Recording and transcript with auto recording | This sample shows meeting recording and transcript with auto recording.                                                                                                         | Advanced     | [View][tab-meeting-auto-recording#csharp] |                                             |                                             |                                                                    |
+| 28 | Tab App Navigation                         | Sample app demonstrating tab navigation features in Microsoft Teams using ASP.NET Core.                                                                                                                                          | Basic        | [View][tab-app-navigation#csharp]       |                                             |                                             |                                                                    |
 ## [Bots samples](https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots) (using the v4 SDK)
 >NOTE:
 >Visit the [Bot Framework Samples repository][botframework] to view Microsoft Bot Framework v4 SDK task-focused samples for C#, JavaScript, TypeScript, and Python.
@@ -215,7 +214,7 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 | 1  | Meetings Audio State                   | This sample tab application demonstrates how to control meeting audio in Microsoft Teams by muting and unmuting using the Incoming Client Audio API. | Basic        |                                               | [View][meetings-audio-state#nodejs] ![toolkit-icon](assets/toolkit-icon.png)                 |                                                                                              |
 | 2  | Meetings Notification                  | This sample application demonstrates how to implement in-meeting and targeted notifications within Microsoft Teams meetings using adaptive cards and bot interactions. | Intermediate | [View][meetings-notification#cs]              | [View][meetings-notification#js] ![toolkit-icon](assets/toolkit-icon.png)             |  [View](/samples/meetings-notification/csharp/demo-manifest/meetings-notification.zip) |
 | 3  | Meetings Context App                   | This sample demonstrates how to retrieve and display meeting context and participant details in Microsoft Teams using bot APIs. | Intermediate | [View][meetings-context-app#csharp]           | [View][meetings-context-app#nodejs] ![toolkit-icon](assets/toolkit-icon.png)                 |                                                                                              |
-| 4  | Meetings Details Tab in Meetings       | This sample demonstrates how to create and manage polls during Microsoft Teams meetings, allowing participants to respond and view results through adaptive cards. | Intermediate | [View][meetings-details-tab#cs]               | [View][meetings-details-tab#js] ![toolkit-icon](assets/toolkit-icon.png)             | [View](/samples/meetings-details-tab/csharp/demo-manifest/meetings-details-tab.zip)            |
+| 4  | Meetings Details Tab in Meetings       | This sample demonstrates how to create and manage polls during Microsoft Teams meetings, allowing participants to respond and view results through adaptive cards. | Intermediate | [View][meetings-details-tab#cs]               | [View][meetings-details-tab#js] ![toolkit-icon](assets/toolkit-icon.png)             | [View](/samples/TeamsJS/meetings-details-tab/csharp/demo-manifest/meetings-details-tab.zip)            |
 | 5  | Meeting Events                         | Receive real-time meeting and participant events with this Teams bot sample.                                       | Intermediate | [View][meetings-events#cs]                    | [View][meetings-events#js] ![toolkit-icon](assets/toolkit-icon.png)                   | [View](/samples/meetings-events/csharp/demo-manifest/Meetings-Events.zip)                     |
 | 6  | Meeting Recruitment App                | Sample app showing meeting app experience for interview scenario.                                                 | Intermediate | [View][meeting-recruitment-app#cs]            | [View][meeting-recruitment-app#js] ![toolkit-icon](assets/toolkit-icon.png)          | [View](/samples/meeting-recruitment-app/csharp/demo-manifest/Meeting-Recruitment-App.zip)     |
 | 7  | Meeting-Tabs                           | This sample shows app stage view, Mute/Unmute Teams meeting audio call, and Side panel.                           | Intermediate | [View][meetingtabs#csharp]                    | [View][meetingtabs#nodejs] ![toolkit-icon](assets/toolkit-icon.png)                          |                                                                                              |
@@ -260,7 +259,7 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 | 18 | SharePoint Tab Request Approval                | Demonstrates using SharePoint Embedded for storage in Teams with tab request approval functionality.                                   | Intermediate | [View][sharepoint-tab-request-approval#csharp]|                                                |                                                   |
 | 19 | AI-Powered Enterprise Search Bot               | Demonstrates user search functionality powered by Azure Open AI embeddings and Redis DB, supporting file-based queries in Teams bots.   | Advanced     |                                              | [View][bot-ai-enterprise-search#nodejs] ![toolkit-icon](assets/toolkit-icon.png)          |                                                   |
 | 20 | Complete Samples                               | Sample covering multiple scenarios - dialogs, ME, and Facebook auth.                                                  | Advanced     | [View][app-complete#cs]                      | [View][app-complete#ts] ![toolkit-icon](assets/toolkit-icon.png)                          |                                                   |
-| 21 | App SSO                                        | Provides SSO functionality for Teams, supporting Tabs, Bots, and Messaging Extensions with secure API access.         | Advanced     | [View][app-sso#cs]                           | [View][app-sso#js] ![toolkit-icon](assets/toolkit-icon.png)                               | [View](/samples/app-sso/csharp/demo-manifest/App-SSO.zip) |
+| 21 | App SSO                                        | Provides SSO functionality for Teams, supporting Tabs, Bots, and Messaging Extensions with secure API access.         | Advanced     | [View][app-sso#cs]                           | [View][app-sso#js] ![toolkit-icon](assets/toolkit-icon.png)                               | [View](/samples/TeamsJS/app-sso/csharp/demo-manifest/App-SSO.zip) |
 | 22 | Combined Tab and Office Add-in                 | Demonstrates using an add-in to act on Office documents and a tab to aggregate data about these actions.                               | Advanced     |                                              | [View][tab-add-in-combined#ts] ![toolkit-icon](assets/toolkit-icon.png)                   | [View](/samples/tab-add-in-combined/nodejs/demo-manifest/tab-add-in-combined.zip) |
 | 23 | App HR Talent                                   | Integrates with a simulated recruiting and talent management system, supporting bot, tab, and messaging extensions for HR operations.   | Advanced     | [View][app-HR-talent#csharp]                 |                                                 | [View](/samples/app-HR-talent/csharp/src/demo-manifest/TeamsTalentMgmt.zip) |
 
@@ -317,10 +316,10 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 [tab-meeting-transcript-recording#nodejs]:samples/TeamsJS/tab-meeting-transcript-recording/nodejs
 [tab-meeting-transcript-recording#csharp]:samples/TeamsJS/tab-meeting-transcript-recording/csharp
 [tab-adhoccalls-transcript-recording#nodejs]:samples/TeamsJS/tab-adhoccalls-transcript-recording/nodejs
-[tab-meeting-auto-recording#csharp]:samples/tab-meeting-auto-recording/csharp
+[tab-meeting-auto-recording#csharp]:samples/TeamsJS/tab-meeting-auto-recording/csharp
 [tab-deeplink-pass-values#ts]:samples/TeamsJS/tab-deeplink-pass-values/ts
 [tab-nested-auth#nodejs]:samples/TeamsJS/tab-nested-auth/nodejs
-[tab-support-offline#nodejs]:samples/tab-support-offline/nodejs
+[tab-support-offline#nodejs]:samples/TeamsJS/tab-support-offline/nodejs
 [tab-nested-auth#cs]:samples/TeamsJS/tab-nested-auth/csharp
 [group-channel-tab#cs#razor]:samples/TeamsJS/tab-channel-group/razor-csharp
 [group-channel-tab#cs#mvc]:samples/TeamsJS/tab-channel-group/mvc-csharp
@@ -352,8 +351,8 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 [outgoing-webhook#cs]:samples/outgoing-webhook/csharp
 [outgoing-webhook#ts]:samples/outgoing-webhook/nodejs
 
-[msgext-link-unfurl#cs]:samples/msgext-link-unfurling-reddit/csharp
-[msgext-link-unfurl-meeting#cs]:samples/msgext-link-unfurling-meeting/csharp
+[msgext-link-unfurl#cs]:samples/TeamsJS/msgext-link-unfurling-reddit/csharp
+[msgext-link-unfurl-meeting#cs]:samples/TeamsJS/msgext-link-unfurling-meeting/csharp
 [msgext-action-quickstart#js]:samples/msgext-action-quickstart/js
 [msgext-search-quickstart#js]:samples/msgext-search-quickstart/js
 [msgext-search-sso-config#js]:samples/msgext-search-sso-config/nodejs
@@ -383,16 +382,16 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 [bot-sharepoint-list#cs]:samples/bot-sharepoint-list/csharp
 [bot-conversation-sso-quickstart#csharp_dotnetcore]:samples/bot-conversation-sso-quickstart/csharp_dotnetcore
 [bot-calling-meeting#csharp]:samples/bot-calling-meeting/csharp
-[bot-tab-conversations#csharp]:samples/bot-tab-conversations/csharp
+[bot-tab-conversations#csharp]:samples/TeamsJS/bot-tab-conversations/csharp
 [botfileviewer#js]:samples/bot-sharepoint-file-viewer/nodejs
-[meetings-token-app#cs]:samples/meetings-token-app/csharp
+[meetings-token-app#cs]:samples/TeamsJS/meetings-token-app/csharp
 [apps-in-meeting#cs]:samples/apps-in-meeting/csharp
-[meetings-token-app#js]:samples/meetings-token-app/nodejs
-[m365-actions-preview#js]:samples/m365-actions-preview/nodejs
+[meetings-token-app#js]:samples/TeamsJS/meetings-token-app/nodejs
+[m365-actions-preview#js]:samples/TeamsJS/m365-actions-preview/nodejs
 [region-selection-app#cs]: samples/app-region-selection/csharp  
 [meetings-notification#cs]:samples/meetings-notification/csharp
-[meetings-sidepanel#cs]:samples/meetings-sidepanel/csharp
-[meetings-sidepanel#js]:samples/meetings-sidepanel/nodejs
+[meetings-sidepanel#cs]:samples/TeamsJS/meetings-sidepanel/csharp
+[meetings-sidepanel#js]:samples/TeamsJS/meetings-sidepanel/nodejs
 [meetings-notification#js]:samples/meetings-notification/nodejs
 [messageswithrsc#csharp]:samples/bot-receive-channel-messages-withRSC/csharp
 [messageswithrsc#js]:samples/bot-receive-channel-messages-withRSC/nodejs
@@ -441,10 +440,10 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 [TypesCards#python]:samples/bot-all-cards/python
 [app-localization#cs]:samples/app-localization/csharp
 [app-localization#js]:samples/app-localization/nodejs
-[meetings-details-tab#cs]:samples/meetings-details-tab/csharp
-[meetings-details-tab#js]:samples/meetings-details-tab/nodejs
-[app-sso#cs]:samples/app-sso/csharp
-[app-sso#js]:samples/app-sso/nodejs
+[meetings-details-tab#cs]:samples/TeamsJS/meetings-details-tab/csharp
+[meetings-details-tab#js]:samples/TeamsJS/meetings-details-tab/nodejs
+[app-sso#cs]:samples/TeamsJS/app-sso/csharp
+[app-sso#js]:samples/TeamsJS/app-sso/nodejs
 [meetings-stage-view#js]:samples/TeamsJS/meetings-stage-view/nodejs
 [meetings-stage-view#cs]:samples/TeamsJS/meetings-stage-view/csharp
 [meetings-events#cs]:samples/meetings-events/csharp
@@ -453,7 +452,7 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 [meeting-recruitment-app#js]:samples/TeamsJS/meeting-recruitment-app/nodejs
 [meetings-transcription-app#cs]:samples/meetings-transcription/csharp
 [meetings-transcription-app#nodejs]:samples/meetings-transcription/nodejs
-[meetings-share-to-stage-signing#csharp]:samples/meetings-share-to-stage-signing/csharp
+[meetings-share-to-stage-signing#csharp]:samples/TeamsJS/meetings-share-to-stage-signing/csharp
 [qrappinstallation#csharp]:samples/app-installation-using-qr-code/csharp
 [qrappinstallation#nodejs]:samples/app-installation-using-qr-code/nodejs
 [qrjointeam#csharp]:samples/bot-join-team-using-qr-code/csharp
@@ -464,9 +463,9 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 [meetings-attendance-report#csharp]:samples/meetings-attendance-report/csharp
 [meetings-attendance-report#nodejs]:samples/meetings-attendance-report/nodejs
 [meetings-audio-state#nodejs]:samples/TeamsJS/meetings-audio-state/nodejs
-[meetings-context-app#csharp]:samples/meetings-context-app/csharp
+[meetings-context-app#csharp]:samples/TeamsJS/meetings-context-app/csharp
 [msgext-ai-doc-compliance-checker#nodejs]:samples/msgext-ai-doc-compliance-checker
-[meetings-context-app#nodejs]:samples/meetings-context-app/nodejs
+[meetings-context-app#nodejs]:samples/TeamsJS/meetings-context-app/nodejs
 [bot-ai-meeting-helper#nodejs]:samples/bot-ai-meeting-helper
 [api-doc-search#nodejs]:samples/api-doc-search
 [bot-virtual-assistant#nodejs]:samples/bot-virtual-assistant
@@ -513,15 +512,15 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 [tab-people-picker#nodejs]:samples/TeamsJS/tab-people-picker/nodejs
 [meetings-live-caption#cs]:samples/meetings-live-caption/csharp
 [meetings-live-caption#nodejs]:samples/meetings-live-caption/nodejs
-[app-anonymous-users#cs]:samples/app-anonymous-users/csharp
-[app-anonymous-users#js]:samples/app-anonymous-users/nodejs
+[app-anonymous-users#cs]:samples/TeamsJS/app-anonymous-users/csharp
+[app-anonymous-users#js]:samples/TeamsJS/app-anonymous-users/nodejs
 [bot-ai-enterprise-search#nodejs]:samples/bot-ai-enterprise-search/nodejs
 [meetings-app-icon-badging#csharp]:samples/meetings-app-icon-badging/csharp
 [meetings-app-icon-badging#nodejs]:samples/meetings-app-icon-badging/nodejs
 [tab-add-in-combined#ts]:samples/tab-add-in-combined/nodejs
 
-[msteams-app-qbot]:samples/msteams-application-qbot/
-[msteams-app-resource-hub]:samples/msteams-application-resourcehub/
+[msteams-app-qbot]:samples/TeamsJS/msteams-application-qbot/
+[msteams-app-resource-hub]:samples/TeamsJS/msteams-application-resourcehub/
 
 [bot-conversation#python]:samples/bot-conversation/python
 [bot-file-upload#python]:samples/bot-file-upload/python
@@ -534,7 +533,7 @@ The [Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDev
 [msgext-link-unfurling#python]:samples/msgext-link-unfurling/python
 [msgext-search-auth-config#python]:samples/msgext-search-auth-config/python
 [msgext-search#python]:samples/msgext-search/python
-[meetings-context-app#python]:samples/meetings-context-app/python
+[meetings-context-app#python]:samples/TeamsJS/meetings-context-app/python
 [bot-auth0-adaptivecard#python]:samples/bot-auth0-adaptivecard/python
 
 [agent-knowledge-hub#js]:samples/agent-knowledge-hub/nodejs
