@@ -136,9 +136,4 @@ az ad app credential reset --id $appId
 ## Further Reading
  
 - [Microsoft Teams SDK Documentation](https://learn.microsoft.com/microsoftteams/platform/)
-- [Bot messages with AI-generated content](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/bot-messages-ai-generated-content) - Overview of AI-generated content features in bot messages
-- [AI label for bot messages](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/format-ai-bot-messages?tabs=desktop#ai-label) - Add AI-generated labels to bot messages
-- [Citations in bot messages](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/format-ai-bot-messages?tabs=desktop#ai-label) - Add citations to bot messages
-- [Feedback buttons](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/format-ai-bot-messages?tabs=desktop#ai-label) - Add feedback buttons to bot messages
-- [Sensitivity labels](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/format-ai-bot-messages?tabs=desktop#ai-label) - Add sensitivity labels to bot messages
- 
+- [Bot messages with AI-generated content](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/bot-messages-ai-generated-content) - Overview of AI-generated content features in bot messages 
