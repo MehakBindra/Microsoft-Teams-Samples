@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-import { DefaultAzureCredential } from '@azure/identity';
+import { ClientSecretCredential } from '@azure/identity';
 import { App } from '@microsoft/teams.apps';
 import { AdaptiveCard, TextBlock, OpenUrlAction } from '@microsoft/teams.cards';
 import { Client } from '@microsoft/teams.graph';
@@ -11,7 +11,11 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 // Authenticate the app, needed for the transcript API
-const credential = new DefaultAzureCredential();
+const credential = new ClientSecretCredential(
+  process.env.TENANT_ID || '',
+  process.env.CLIENT_ID || '',
+  process.env.CLIENT_SECRET || ''
+);
 
 const graphClient = new Client({
   token: async () => {
