@@ -48,6 +48,7 @@ python main.py
 2. Run the bot:
    ```bash
    uv run main.py
+   ```
 
 The bot will start listening on `http://localhost:3978`.
 
