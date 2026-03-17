@@ -99,6 +99,10 @@ function parseVtt(vtt: string): string {
 app.on('meetingEnd', async (context) => {
   const value = context.activity.value;
   const meetingId = context.activity.channelData?.meeting?.id ?? '';
+  if (!meetingId) {
+    console.error('meetingEnd event received without a valid meeting id in channelData.meeting.id');
+    return;
+  }
   let msGraphResourceId = context.activity.channelData?.meeting?.details?.msGraphResourceId;
   const meetingInfo = await context.api.meetings.getById(meetingId);
 
