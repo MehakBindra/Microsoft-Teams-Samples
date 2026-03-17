@@ -112,7 +112,7 @@ app.on('meetingEnd', async (context) => {
 
   let userId = '';
   if (meetingInfo && meetingInfo.organizer) {
-    userId = meetingInfo.organizer.objectId || '';
+    userId = meetingInfo.organizer.aadObjectId || '';
   }
 
   if (!msGraphResourceId && meetingInfo && meetingInfo.details) {
@@ -154,7 +154,7 @@ app.on('meetingParticipantJoin', async (context) => {
   const meetingData = context.activity.value;
   const participant = meetingData.members[0];
 
-  if (!participant.user?.objectId) return;
+  if (!participant.user?.aadObjectId) return;
 
   const member = participant.user.name || 'A participant';
   const role = participant.meeting?.role || 'a participant';
@@ -173,8 +173,8 @@ app.on('meetingParticipantLeave', async (context) => {
   const meetingData = context.activity.value;
   const participant = meetingData.members[0];
 
-  // Skip bot's own leave event (no objectId)
-  if (!participant.user?.objectId) return;
+  // Skip bot's own leave event (no aadObjectId)
+  if (!participant.user?.aadObjectId) return;
 
   const member = participant.user.name || 'A participant';
 
