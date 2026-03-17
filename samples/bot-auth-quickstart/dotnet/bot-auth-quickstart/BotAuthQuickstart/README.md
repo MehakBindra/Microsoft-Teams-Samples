@@ -29,5 +29,5 @@ The bot will start listening on `http://localhost:3978`.
 
 ## Further Reading
 
-Refer to the main [Root README](../../README.md) for detailed setup and configuration instructions.
+Refer to the main [Root README](../../../README.md) for detailed setup and configuration instructions.
 
