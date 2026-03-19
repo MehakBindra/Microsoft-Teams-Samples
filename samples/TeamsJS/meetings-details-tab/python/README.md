@@ -31,7 +31,7 @@ This sample demonstrates how to extend Microsoft Teams meetings by implementing 
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Sideloading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Meetings Details Tab Sample:** [Manifest](/samples/meetings-details-tab/python-backend/demo-manifest/meetings-details-tab.zip)
+**Meetings Details Tab Sample:** [Manifest](/samples/TeamsJS/meetings-details-tab/csharp/demo-manifest/meetings-details-tab.zip)
 
 ## Prerequisites
 
@@ -204,4 +204,4 @@ Interact with Details Tab in Meeting.
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [Bot Framework Python SDK](https://docs.microsoft.com/azure/bot-service/python/bot-builder-python-quickstart?view=azure-bot-service-4.0)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/meetings-details-tab-python" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/meetings-details-tab-python" />

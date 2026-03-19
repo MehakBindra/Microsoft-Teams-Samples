@@ -38,7 +38,7 @@ This sample application enables the configuration and use of shared meeting stag
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app manifest (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Realtime meeting stage view:** [Manifest](/samples/meetings-stage-view/csharp/demo-manifest/Meeting-stage-view.zip)
+**Realtime meeting stage view:** [Manifest](/samples/TeamsJS/meetings-stage-view/csharp/demo-manifest/Meeting-stage-view.zip)
 
 ## Prerequisites
 
@@ -262,4 +262,4 @@ The simplest way to run this sample in Teams is to use Microsoft 365 Agents Tool
 - [Deeplink to meeting share to stage](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/share-in-meeting?tabs=method-1#generate-a-deep-link-to-share-content-to-stage-in-meetings)
 - [Handle theme change](https://learn.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/access-teams-context?tabs=Json-v2%2Cteamsjs-v2%2Cdefault#handle-theme-change)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/meetings-stage-view-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/meetings-stage-view-csharp" />

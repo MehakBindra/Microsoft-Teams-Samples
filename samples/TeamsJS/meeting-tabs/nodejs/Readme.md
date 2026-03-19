@@ -32,7 +32,7 @@ This sample provides an interactive demonstration of a Teams meeting side panel 
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Meeting-Tabs:** [Manifest](/samples/meeting-tabs/nodejs/demo-manifest/meeting-tabs.zip)
+**Meeting-Tabs:** [Manifest](/samples/TeamsJS/meeting-tabs/nodejs/demo-manifest/meeting-tabs.zip)
 
 ## Prerequisites
 
@@ -179,4 +179,4 @@ Toggle button to Unmute state it will unmute client audio.
 
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/meeting-tabs-nodejs" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/meeting-tabs-nodejs" />

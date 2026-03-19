@@ -28,7 +28,7 @@ This sample application provides a seamless product inspection experience within
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app manifest (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Product Inspection:** [Manifest](/samples/tab-product-inspection/csharp/demo-manifest/Tab-Product-Inspection.zip)
+**Product Inspection:** [Manifest](/samples/TeamsJS/tab-product-inspection/csharp/demo-manifest/Tab-Product-Inspection.zip)
 
 ## Prerequisites
 - Microsoft Teams is installed and you have an account (not a guest account)
@@ -171,4 +171,4 @@ Interact with Product Inspection by clicking on the App icon.
 [Extend Teams apps across Microsoft 365](https://learn.microsoft.com/microsoftteams/platform/m365-apps/overview)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-product-inspection-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-product-inspection-csharp" />

@@ -29,7 +29,7 @@ urlFragment: officedev-microsoft-teams-samples-tab-personal-sso-quickstart-cshar
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Sideloading must be enabled for your tenant; [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Personal tab with SSO quick-start:** [Manifest](/samples/tab-personal-sso-quickstart/csharp_dotnetcore/demo-manifest/tab-personal-sso-quickstart.zip)
+**Personal tab with SSO quick-start:** [Manifest](/samples/TeamsJS/tab-personal-sso-quickstart/csharp_dotnetcore/demo-manifest/tab-personal-sso-quickstart.zip)
  
 ## Prerequisites
 
@@ -219,4 +219,4 @@ In Teams, Once the app is succefully installed, it can be opened and the tab sho
 - [Microsoft Teams Developer Platform](https://docs.microsoft.com/en-us/microsoftteams/platform/)
 - [Extend Teams apps across Microsoft 365](https://learn.microsoft.com/en-us/microsoftteams/platform/m365-apps/overview)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-personal-sso-quickstart-csharp_dotnetcore" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-personal-sso-quickstart-csharp_dotnetcore" />

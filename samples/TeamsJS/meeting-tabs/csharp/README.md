@@ -33,7 +33,7 @@ This sample showcases muting/unmuting Teams meeting audio directly from the side
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app manifest (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Meeting-Tabs:** [Manifest](/samples/meeting-tabs/csharp/demo-manifest/meeting-tabs.zip)
+**Meeting-Tabs:** [Manifest](/samples/TeamsJS/meeting-tabs/csharp/demo-manifest/meeting-tabs.zip)
 
 ## Prerequisites
 
@@ -196,4 +196,4 @@ Toggle button to Unmute state it will unmute client audio.
 - [Handle theme change](https://learn.microsoft.com/en-us/microsoftteams/platform/tabs/how-to/access-teams-context?tabs=Json-v2%2Cteamsjs-v2%2Cdefault#handle-theme-change)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/meeting-tabs-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/meeting-tabs-csharp" />

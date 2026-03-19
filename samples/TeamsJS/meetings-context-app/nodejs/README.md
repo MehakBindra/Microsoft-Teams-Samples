@@ -30,7 +30,7 @@ This sample application illustrates how to display the meeting context object in
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Teams Meeting Context Sample:** [Manifest](/samples/meetings-context-app/csharp/demo-manifest/meetings-context-app.zip)
+**Teams Meeting Context Sample:** [Manifest](/samples/TeamsJS/meetings-context-app/csharp/demo-manifest/meetings-context-app.zip)
 
 ## Prerequisites
 
@@ -163,7 +163,7 @@ Here is the exact content that must be added if it’s missing or incomplete:
 2. **Meeting Details :** In this user can track the detials of meeting start time, end time, joining url and other details respectively.
 ![meeting context](Images/Meeting-Details.png) 
 
-**Note**: If you are facing any issue in your app, please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/meetings-context-app/nodejs/server/index.js#L44) line and put your debugger for local debug.
+**Note**: If you are facing any issue in your app, please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/TeamsJS/meetings-context-app/nodejs/server/index.js#L44) line and put your debugger for local debug.
 
 ## Further reading
 
@@ -172,4 +172,4 @@ Here is the exact content that must be added if it’s missing or incomplete:
 - [Get-context-for-tabs](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/access-teams-context#retrieve-context-in-private-channels)
 - [Meeting API reference](https://docs.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/api-references?tabs=dotnet)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/meetings-context-app-nodejs" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/meetings-context-app-nodejs" />

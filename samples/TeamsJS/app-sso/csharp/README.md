@@ -51,7 +51,7 @@ The sample uses the bot authentication capabilities in [Azure Bot Service](https
  ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**App SSO:** [Manifest](/samples/app-sso/csharp/demo-manifest/App-SSO.zip)
+**App SSO:** [Manifest](/samples/TeamsJS/app-sso/csharp/demo-manifest/App-SSO.zip)
 
 ## Prerequisites
 
@@ -85,7 +85,7 @@ The simplest way to run this sample in Teams is to use Microsoft 365 Agents Tool
 
 ### 1. Setup for Bot SSO
 - Setup for Bot SSO
-Refer to [Bot SSO Setup document](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/bot-conversation-sso-quickstart/BotSSOSetup.md).
+Refer to [Bot SSO Setup document](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/TeamsJS/bot-conversation-sso-quickstart/BotSSOSetup.md).
 
 Make sure your Application ID Url under Expose and API section is in below format. The above sso document uses only bot-sso. This sample uses both tab + bot sso so replace the url format.
  `api://<your_tunnel_domain>/botid-<<YOUR-MICROSOFT-APP-ID>>`
@@ -211,7 +211,7 @@ Make sure your Application ID Url under Expose and API section is in below forma
 
 **Note**: This `manifest.json` specified that the bot will be installed in a "personal" scope only. Please refer to Teams documentation for more details. 
   
-- If you are facing any issue in your app, please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/app-sso/csharp/App%20SSO%20Sample/AdapterWithErrorHandler.cs#L255) line and put your debugger for local debug.
+- If you are facing any issue in your app, please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/TeamsJS/app-sso/csharp/App%20SSO%20Sample/AdapterWithErrorHandler.cs#L255) line and put your debugger for local debug.
 
 ## Running the sample
 
@@ -334,4 +334,4 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 - [Azure Bot Service Documentation](https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0)
 - [Extend Teams apps across Microsoft 365](https://learn.microsoft.com/microsoftteams/platform/m365-apps/overview)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/app-sso-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/app-sso-csharp" />

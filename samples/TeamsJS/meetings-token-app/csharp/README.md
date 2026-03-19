@@ -42,7 +42,7 @@ The Meeting Token Generator is a sample application designed to extend Microsoft
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app manifest (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Meetings Token App:** [Manifest](/samples/meetings-token-app/csharp/demo-manifest/meetings-token-app.zip)
+**Meetings Token App:** [Manifest](/samples/TeamsJS/meetings-token-app/csharp/demo-manifest/meetings-token-app.zip)
 
 ## Prerequisites
 
@@ -187,7 +187,7 @@ Note: Open the meeting chat section and type @MeetingTokenApp Hello (It will sen
 
 > In-meeting tabs are only available in the Teams desktop client. They will not be visible when you run Teams in a web browser.
 
-**Note**: If you are facing any issue in your app, please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/meetings-token-app/csharp/AdapterWithErrorHandler.cs#L32) line and put your debugger for local debug.
+**Note**: If you are facing any issue in your app, please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/TeamsJS/meetings-token-app/csharp/AdapterWithErrorHandler.cs#L32) line and put your debugger for local debug.
   
 -- Upload the app in a Teams desktop client
     1. Create a meeting with few test participants, ideally with a mix of Presenters and Attendees.
@@ -257,4 +257,4 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/meetings-token-app-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/meetings-token-app-csharp" />

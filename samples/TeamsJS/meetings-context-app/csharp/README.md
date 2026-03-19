@@ -30,7 +30,7 @@ This sample application illustrates how to display the contents of the meeting c
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app manifest (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Teams Meeting Context Sample:** [Manifest](/samples/meetings-context-app/csharp/demo-manifest/meetings-context-app.zip)
+**Teams Meeting Context Sample:** [Manifest](/samples/TeamsJS/meetings-context-app/csharp/demo-manifest/meetings-context-app.zip)
  
 ## Prerequisites
 
@@ -146,7 +146,7 @@ Here is the exact content that must be added if it’s missing or incomplete:
 - Add the app in meeting.
 
  **NOTE:** Only accounts with admin access can create private/shared channels in team.
- - If you are facing any issue in your app,  please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/meetings-context-app/csharp/MeetingContextApp/AdapterWithErrorHandler.cs#L24) line and put your debugger for local debug.
+ - If you are facing any issue in your app,  please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/TeamsJS/meetings-context-app/csharp/MeetingContextApp/AdapterWithErrorHandler.cs#L24) line and put your debugger for local debug.
     
 
 ## Running the sample
@@ -174,4 +174,4 @@ Here is the exact content that must be added if it’s missing or incomplete:
 - [Meeting API reference](https://docs.microsoft.com/microsoftteams/platform/apps-in-teams-meetings/api-references?tabs=dotnet)
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/meetings-context-app-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/meetings-context-app-csharp" />

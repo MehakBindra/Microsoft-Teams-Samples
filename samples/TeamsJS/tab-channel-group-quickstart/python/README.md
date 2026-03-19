@@ -28,7 +28,7 @@ This sample application illustrates how to create channel and group tabs in Micr
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Sideloading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Tab Channel quick start:** [Manifest](/samples/tab-channel-group-quickstart/python/demo-manifest/tab-channel-group-quickstart.zip)
+**Tab Channel quick start:** [Manifest](/samples/TeamsJS/tab-channel-group-quickstart/js/demo-manifest/tab-channel-group-quickstart.zip)
 
 ## Prerequisites
 
@@ -169,4 +169,4 @@ Ensure you have the Python extension installed for Visual Studio Code from the m
 
 [Create a group tab](https://learn.microsoft.com/microsoftteams/platform/tabs/how-to/create-channel-group-tab?pivots=node-java-script)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-channel-group-quickstart-python" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-channel-group-quickstart-python" />
