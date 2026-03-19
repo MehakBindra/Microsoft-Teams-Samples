@@ -28,7 +28,7 @@ This sample application illustrates how to utilize [Resource Specific Consent](h
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**RSC with Graph API:** [Manifest](/samples/graph-rsc/csharp/demo-manifest/graph-rsc.zip)
+**RSC with Graph API:** [Manifest](/samples/TeamsJS/graph-rsc/csharp/demo-manifest/graph-rsc.zip)
 
 ## Prerequisites
 
@@ -141,4 +141,4 @@ The simplest way to run this sample in Teams is to use Microsoft 365 Agents Tool
 - [Upload app manifest file](https://docs.microsoft.com//microsoftteams/platform/concepts/deploy-and-publish/apps-upload#load-your-package-into-teams) (zip file) to your team.
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/graph-rsc-nodeJs" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/graph-rsc-nodeJs" />

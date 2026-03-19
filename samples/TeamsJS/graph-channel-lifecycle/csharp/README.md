@@ -29,7 +29,7 @@ This sample application illustrates how to effectively manage the lifecycle of c
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Sideloading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Channel life cycle:** [Manifest](/samples/graph-channel-lifecycle/csharp/demo-manifest/graph-channel-lifecycle.zip)
+**Channel life cycle:** [Manifest](/samples/TeamsJS/graph-channel-lifecycle/csharp/demo-manifest/graph-channel-lifecycle.zip)
 
 ## Prerequisites
 - [.NET Core SDK](https://dotnet.microsoft.com/download) version 6.0
@@ -160,4 +160,4 @@ The simplest way to run this sample in Teams is to use Microsoft 365 Agents Tool
 
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/graph-channel-lifecycle-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/graph-channel-lifecycle-csharp" />

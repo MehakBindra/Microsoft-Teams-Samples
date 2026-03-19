@@ -38,7 +38,7 @@ Currently only capture image is supported in Teams Desktop client.
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Tab Device Permission:** [Manifest](/samples/tab-device-permissions/nodejs/demo-manifest/tab-device-permissions.zip)
+**Tab Device Permission:** [Manifest](/samples/TeamsJS/tab-device-permissions/nodejs/demo-manifest/tab-device-permissions.zip)
 
 ## Prerequisites
  To test locally, [NodeJS](https://nodejs.org/en/download/) must be installed on your development machine (version 16.14.2  or higher).
@@ -198,4 +198,4 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 - [Teams tabs](https://learn.microsoft.com/microsoftteams/platform/tabs/what-are-tabs)
 - [Integrate media Capabilities inside your app](https://learn.microsoft.com/microsoftteams/platform/concepts/device-capabilities/media-capabilities?tabs=mobile)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-device-permissions-nodejs" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-device-permissions-nodejs" />

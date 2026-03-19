@@ -26,7 +26,7 @@ Explore this simple hello world app that showcases channel and group tabs in Mic
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Tab Channel quick start:** [Manifest](/samples/tab-channel-group-quickstart/csharp/demo-manifest/tab-channel-group-quickstart.zip)
+**Tab Channel quick start:** [Manifest](/samples/TeamsJS/tab-channel-group-quickstart/js/demo-manifest/tab-channel-group-quickstart.zip)
 
 ## Prerequisites
 - Microsoft Teams is installed and you have an account (not a guest account)
@@ -151,4 +151,4 @@ To learn more about deploying an app to Azure, see [Deploy your app to Azure](ht
 - [Create a group tab](https://learn.microsoft.com/microsoftteams/platform/tabs/how-to/create-channel-group-tab?pivots=node-java-script)
 - [Extend Teams apps across Microsoft 365](https://learn.microsoft.com/en-us/microsoftteams/platform/m365-apps/overview)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-channel-group-quickstart-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-channel-group-quickstart-csharp" />

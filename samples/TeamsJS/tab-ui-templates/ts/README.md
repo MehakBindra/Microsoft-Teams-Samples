@@ -29,7 +29,7 @@ This sample app illustrates best practices for designing applications within Mic
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Teams UI templates:** [Manifest](/samples/tab-ui-templates/ts/demo-manifest/tab-ui-templates.zip)
+**Teams UI templates:** [Manifest](/samples/TeamsJS/tab-ui-templates/ts/demo-manifest/tab-ui-templates.zip)
 
 ## Prerequisites
 
@@ -44,7 +44,7 @@ Open a terminal and clone the sample app repository.
 
 ```bash
 git clone https://github.com/OfficeDev/Microsoft-Teams-Samples.git
-cd Microsoft-Teams-Samples/samples/tab-ui-templates/ts
+cd Microsoft-Teams-Samples/samples/TeamsJS/tab-ui-templates/ts
 yarn install
 ```
 
@@ -214,4 +214,4 @@ Teams doesn't display app content unless it's accessible via HTTPS. We recommend
 - [Tabs](https://learn.microsoft.com/microsoftteams/platform/tabs/what-are-tabs)
 - [Extend Teams apps across Microsoft 365](https://learn.microsoft.com/microsoftteams/platform/m365-apps/overview)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-ui-templates-ts" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-ui-templates-ts" />

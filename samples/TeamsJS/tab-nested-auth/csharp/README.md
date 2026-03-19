@@ -22,7 +22,7 @@ This sample application for Microsoft Teams illustrates how to implement Azure A
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Nested app authentication:** [Manifest](/samples/tab-nested-auth/csharp/demo-manifest/tab-nested-auth.zip)
+**Nested app authentication:** [Manifest](/samples/TeamsJS/tab-nested-auth/csharp/demo-manifest/tab-nested-auth.zip)
 
 ## Run the app (Using Microsoft 365 Agents Toolkit for Visual Studio)
 
@@ -86,7 +86,7 @@ The simplest way to run this sample in Teams is to use Microsoft 365 Agents Tool
     
 4. Run the app from a terminal or from Visual Studio, choose option A or B.
 
-    A) From a terminal, navigate to `/samples/tab-nested-auth/csharp`
+    A) From a terminal, navigate to `/samples/TeamsJS/tab-nested-auth/csharp`
 
     ```bash
     # run the app
@@ -96,7 +96,7 @@ The simplest way to run this sample in Teams is to use Microsoft 365 Agents Tool
 
     - Launch Visual Studio
     - File -> Open -> Project/Solution
-    - Navigate to `/samples/tab-nested-auth/csharp` folder
+    - Navigate to `/samples/TeamsJS/tab-nested-auth/csharp` folder
     - Select `TabNestedAuth.sln` file
     - Press `F5` to run the project
     
@@ -152,4 +152,4 @@ In the debug dropdown menu of Visual Studio, select default startup project > **
 
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-nested-auth-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-nested-auth-csharp" />

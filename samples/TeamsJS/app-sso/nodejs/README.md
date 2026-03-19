@@ -46,7 +46,7 @@ The sample uses the bot authentication capabilities in [Azure Bot Service](https
  ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**App SSO:** [Manifest](/samples/app-sso/csharp/demo-manifest/App-SSO.zip)
+**App SSO:** [Manifest](/samples/TeamsJS/app-sso/csharp/demo-manifest/App-SSO.zip)
 
 ## Prerequisites
 
@@ -69,7 +69,7 @@ If you use Ngrok, make sure you've downloaded and installed Ngrok on your local 
 
 ### 1. Setup for Bot
 - Setup for Bot SSO
-Refer to [Bot SSO Setup document](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/bot-conversation-sso-quickstart/BotSSOSetup.md).
+Refer to [Bot SSO Setup document](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/TeamsJS/bot-conversation-sso-quickstart/BotSSOSetup.md).
 
 - Ensure that you've [enabled the Teams Channel](https://docs.microsoft.com/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0)
 
@@ -192,7 +192,7 @@ Refer to [Bot SSO Setup document](https://github.com/OfficeDev/Microsoft-Teams-S
 
 **Note**: This `manifest.json` specified that the bot will be installed in a "personal" scope only. Please refer to Teams documentation for more details.
 
-- If you are facing any issue in your app, please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/app-sso/nodejs/server/api/botController.js#L32) line and put your debugger for local debug.
+- If you are facing any issue in your app, please uncomment [this](https://github.com/OfficeDev/Microsoft-Teams-Samples/blob/main/samples/TeamsJS/app-sso/nodejs/server/api/botController.js#L32) line and put your debugger for local debug.
 
 ## Running the sample
 
@@ -316,4 +316,4 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/app-sso-nodejs" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/app-sso-nodejs" />

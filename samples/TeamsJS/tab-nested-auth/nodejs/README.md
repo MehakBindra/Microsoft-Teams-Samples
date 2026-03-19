@@ -24,7 +24,7 @@ Nested app authentication (NAA) is a new authentication protocol for single page
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Nested app authentication:** [Manifest](/samples/tab-nested-auth/csharp/demo-manifest/tab-nested-auth.zip)
+**Nested app authentication:** [Manifest](/samples/TeamsJS/tab-nested-auth/csharp/demo-manifest/tab-nested-auth.zip)
 
 ## Prerequisites
 
@@ -158,4 +158,4 @@ To debug the app
 
 - [SPA Redirect URL](https://learn.microsoft.com/en-us/office/dev/add-ins/develop/enable-nested-app-authentication-in-your-add-in#add-a-trusted-broker-through-spa-redirect)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-nested-auth-nodejs" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-nested-auth-nodejs" />

@@ -28,7 +28,7 @@ This sample application highlights the People Picker feature within a Microsoft 
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Uploading must be enabled for your tenant, [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Tab people picker:** [Manifest](/samples/tab-people-picker/csharp/demo-manifest/Tab-People-Picker.zip)
+**Tab people picker:** [Manifest](/samples/TeamsJS/tab-people-picker/csharp/demo-manifest/Tab-People-Picker.zip)
 
 ## Prerequisites
 
@@ -102,7 +102,7 @@ The simplest way to run this sample in Teams is to use Microsoft 365 Agents Tool
     ```
 - Run the bot from a terminal or from Visual Studio:
 
-  - From a terminal, navigate to `samples/samples/tab-people-picker/csharp`
+  - From a terminal, navigate to `samples/samples/TeamsJS/tab-people-picker/csharp`
 
   ```bash
   # run the bot
@@ -148,4 +148,4 @@ This is an tab app which shows the feature of client sdk people picker.
 
 [Tab-people-picker](https://learn.microsoft.com/en-us/microsoftteams/platform/concepts/device-capabilities/people-picker-capability?tabs=Samplemobileapp%2Cteamsjs-v2)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-people-picker-csharp" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-people-picker-csharp" />

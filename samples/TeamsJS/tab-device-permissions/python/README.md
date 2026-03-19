@@ -35,7 +35,7 @@ Currently only capture image is supported in Teams Desktop client.
 
 ![Tab Device PermissionsGif Mobile](Images/TabDevicePermissionsGifMobile.gif)
 
-**Deployed App Manifest (Tab Device Permission):** [Manifest](/samples/tab-device-permissions/nodejs/demo-manifest/tab-device-permissions.zip)  
+**Deployed App Manifest (Tab Device Permission):** [Manifest](/samples/TeamsJS/tab-device-permissions/nodejs/demo-manifest/tab-device-permissions.zip)  
 
 Download and upload this manifest to Microsoft Teams for testing.  
 The app is already deployed and hosted on Azure App Service, ready for immediate use.
@@ -191,4 +191,4 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 - [Teams tabs](https://learn.microsoft.com/microsoftteams/platform/tabs/what-are-tabs)
 - [Integrate media Capabilities inside your app](https://learn.microsoft.com/microsoftteams/platform/concepts/device-capabilities/media-capabilities?tabs=mobile)
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-device-permissions-python" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-device-permissions-python" />

@@ -30,7 +30,7 @@ This sample application serves as a complete guide for implementing Single Sign-
 ## Try it yourself - experience the App in your Microsoft Teams client
 Please find below demo manifest which is deployed on Microsoft Azure and you can try it yourself by uploading the app package (.zip file link below) to your teams and/or as a personal app. (Sideloading must be enabled for your tenant; [see steps here](https://docs.microsoft.com/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant#enable-custom-teams-apps-and-turn-on-custom-app-uploading)).
 
-**Personal tab with SSO quick-start:** [Manifest](/samples/tab-personal-sso-quickstart/csharp_dotnetcore/demo-manifest/tab-personal-sso-quickstart.zip)
+**Personal tab with SSO quick-start:** [Manifest](/samples/TeamsJS/tab-personal-sso-quickstart/csharp_dotnetcore/demo-manifest/tab-personal-sso-quickstart.zip)
 
  ## Prerequisites
 
@@ -199,4 +199,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
-<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/tab-personal-sso-quickstart-ts" />
+<img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/TeamsJS/tab-personal-sso-quickstart-ts" />
