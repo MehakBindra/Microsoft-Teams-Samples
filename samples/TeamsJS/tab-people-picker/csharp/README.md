@@ -102,7 +102,7 @@ The simplest way to run this sample in Teams is to use Microsoft 365 Agents Tool
     ```
 - Run the bot from a terminal or from Visual Studio:
 
-  - From a terminal, navigate to `samples/TeamsJS/samples/TeamsJS/tab-people-picker/csharp`
+  - From a terminal, navigate to `samples/TeamsJS/tab-people-picker/csharp`
 
   ```bash
   # run the bot

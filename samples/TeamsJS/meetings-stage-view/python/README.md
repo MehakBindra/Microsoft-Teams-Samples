@@ -138,11 +138,11 @@ For reference please check [Share app content to stage API](https://docs.microso
 3) Search the uploaded app and copy the `App ID`
 ![Admin Center](Images/adminCenter.png)
 
-4) Navigate to `samples/TeamsJS/samples/TeamsJS/meetings-stage-view/python/ClientApp/src/components/app-in-meeting.jsx`
+4) Navigate to `samples/TeamsJS/meetings-stage-view/python/ClientApp/src/components/app-in-meeting.jsx`
 
 5) Replace `<<App id>>` with `Id` obtained in step 3.
 
-6) Navigate to `samples/TeamsJS/samples/TeamsJS/meetings-stage-view/python/ClientApp/src/components/share-to-meeting.jsx`
+6) Navigate to `samples/TeamsJS/meetings-stage-view/python/ClientApp/src/components/share-to-meeting.jsx`
 
 7) Replace `<Application-Base-URL>` with your application's base url where app is running. E.g. if you are using ngrok it would be something like `https://1234.ngrok-free.app` and if you are using dev tunnels, your URL will be like: https://12345.devtunnels.ms.
 
