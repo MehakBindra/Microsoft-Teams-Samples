@@ -21,7 +21,6 @@ This sample demonstrates how to implement Single Sign-On (SSO) authentication fo
 - [Setup Instructions](#setup-instructions)
   - [Option 1: Using Microsoft 365 Agents Toolkit](#option-1-using-microsoft-365-agents-toolkit-for-vs-code)
   - [Option 2: Manual Setup](#option-2-manual-setup)
-- [Running the Sample](#running-the-sample)
 - [Troubleshooting](#troubleshooting)
 - [Further Reading](#further-reading)
 
@@ -245,20 +244,6 @@ For Python:
 ```bash
 python main.py
 ```
-
-## Running the Sample
-
-**Authentication:**
-- **signin** - Sign in to the bot using your Microsoft 365 account
-  - The bot will request your consent to access your profile information
-  - After consent, the bot exchanges an SSO token and accesses Microsoft Graph on your behalf
-  - You remain signed in until you explicitly sign out
-
-**Profile:**
-- **profile** - View your Microsoft 365 profile (Name, Email, Job Title, Department, Office)
-
-**Sign Out:**
-- **signout** - Sign out from the bot and clear your authentication session
 
 ## Troubleshooting
 
